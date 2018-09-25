@@ -1,0 +1,2 @@
+# StarterTemplate
+Tailwind Starter Template
