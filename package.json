@@ -18,7 +18,7 @@
         "cssnano": "^4.0.5"
     },
     "scripts": {
-        "dev:css": "./node_modules/.bin/tailwind build tailwind.css -c tailwind.config.js -o dist/css/tailwind.css",
-        "build:css": "postcss tailwind.css -o dist/css/tailwind.min.css"
+        "dev:css": "./node_modules/.bin/tailwind build tailwind.config.css -c tailwind.config.js -o dist/css/tailwind.css",
+        "build:css": "postcss tailwind.config.css -o dist/css/tailwind.min.css"
     }
 }
