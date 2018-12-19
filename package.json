@@ -2,23 +2,25 @@
     "name": "TailwindStarterTemplate",
     "version": "1.0.0",
     "description": "Tailwind Starter Template",
-	"license" : "MIT",
-	"repository": {
-	  "type" : "git",
-	  "url" : "https://github.com/tailwindtoolbox/StarterTemplate.git"
-	},
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tailwindtoolbox/StarterTemplate.git"
+    },
     "main": "postcss.config.js",
     "dependencies": {
-        "autoprefixer": "^9.1.5",
+        "autoprefixer": "^9.4.3",
         "postcss-cli": "^6.0.0",
-        "tailwindcss": "^0.7.0"
+        "rimraf": "^2.6.2",
+        "tailwindcss": "^0.7.3"
     },
     "devDependencies": {
-        "@fullhuman/postcss-purgecss": "^1.0.1",
-        "cssnano": "^4.0.5"
+        "@fullhuman/postcss-purgecss": "^1.1.0",
+        "cssnano": "^4.1.7"
     },
     "scripts": {
-	"dev:js": "./node_modules/.bin/tailwind init tailwind.config.js",
+        "del:js": "rimraf tailwind.config.js",
+        "create:js": "./node_modules/.bin/tailwind init tailwind.config.js",
         "dev:css": "./node_modules/.bin/tailwind build tailwind.config.css -c tailwind.config.js -o dist/css/tailwind.css",
         "build:css": "postcss tailwind.config.css -o dist/css/tailwind.min.css"
     }
