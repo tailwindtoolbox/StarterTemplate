@@ -2,6 +2,10 @@
 
 It's pretty straight forward to setup [Tailwind CSS](https://www.tailwindcss.com/) and give it a test spin using the CDN version. However, as mentioned on the Tailwind site, you need to setup Tailwind using npm in order to start customising Tailwind.
 
+*Note: This starter template is for Tailwind CSS version 1 beta 3 (which is pretty much the [final version](https://twitter.com/adamwathan/status/1108450684783849472))
+
+If you want the starter template for version 0.7.4, then please [download it from here](https://github.com/tailwindtoolbox/StarterTemplate/archive/v0-7-4.zip)*
+
 ## Setup Guide
 * Download [Node/npm](https://nodejs.org/en/download/)
 * Download the [Tailwind Starter Template](https://github.com/tailwindtoolbox/StarterTemplate/archive/master.zip)
